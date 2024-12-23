@@ -1,0 +1,20 @@
+catatan :
+
+be = Laravel 11 = Menggunakan PHP versi minimal 8.2 untuk menjalankan backendnya
+
+backend = Hanya memperoses data dan function (tidak ada ui disana)
+
+frontend = react + vite
+
+akun login :
+
+email : idnhalolearn@gmail.com 
+pw    : F28052004
+
+
+
+
+
+
+
+
