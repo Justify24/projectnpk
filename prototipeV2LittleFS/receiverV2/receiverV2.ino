@@ -1,10 +1,10 @@
 #define THINGER_SERIAL_DEBUG
 #include <ThingerESP32.h>
-#include <WiFi.h>
-#include "credentials.h"
-
 ThingerESP32 thing(USERNAME, DEVICE_ID, DEVICE_CREDENTIAL);
-#define RECONNECT_DELAY 5000
+
+#include <WiFi.h>
+
+#include "credentials.h"
 
 void setup()
 {
