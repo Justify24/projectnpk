@@ -2,10 +2,14 @@
 
 LiquidCrystal_I2C lcd(0x27, 20, 4);
 
-void setup() {
+void setup()
+{
   lcd.init();
   lcd.backlight();
+}
 
+void loop()
+{
   lcd.setCursor(0, 0);
   lcd.print("Baris pertama");
   lcd.setCursor(0, 1);
@@ -14,7 +18,4 @@ void setup() {
   lcd.print("Baris ketiga");
   lcd.setCursor(0, 3);
   lcd.print("Baris keempat");
-}
-
-void loop() {
 }
