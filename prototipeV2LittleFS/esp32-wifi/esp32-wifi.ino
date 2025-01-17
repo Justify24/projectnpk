@@ -15,10 +15,6 @@ void setup()
 
 void loop()
 {
-  if (WiFi.status() != WL_CONNECTED)
-  {
-    connectWiFi();
-  }
 }
 
 void connectWiFi()
